@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["Challeng Guerilla.xd","996b4d189e926340c8dae25b72088d6c"],["README.md","f6dc29e15f07cb3044a2718a8502dafa"],["header.jpg","b4b3173d4e0e17d9cba3cebb18b0b585"],["index.html","a4fa75f50f169e6686285516b5f1b5f8"],["invalid work.jpg","03c23fc056a2dfb00168c2e5cff30879"],["logo.png","c8af68acb489c75b2c1b588227c002a9"],["script.js","d41d8cd98f00b204e9800998ecf8427e"],["slide-1.jpg","2d3b6745e77f1d764687d7a38a3fdb7f"],["slide-2.jpg","1cb284b6ada25118612f384fe61858ad"],["slide-3.jpg","5bd70eba4a4c6ba7a9209036b328a5d9"],["slide-4.jpg","bbe492095b164302166b32f14853129e"],["slider1.jpg","02e79d4364b462fa76d54ae8ffd2147f"],["stylesheet.css","543d20cae5d07b65db3fb8e86f99127b"]];
+var precacheConfig = [["Challeng Guerilla.xd","996b4d189e926340c8dae25b72088d6c"],["README.md","5d60970303f594bd69281601f5240648"],["app.js","7eaa6b26a06d02f5f44b04b104a03b0c"],["header.jpg","9dbd5be241c2c7d27c24529ada4bc564"],["index.html","99dc81dd4dd2cb240882560255ece7ec"],["logo.png","067cf82f6d54abfa85a86813e67a3588"],["manifest.json","7c2a8f2886561dc1c1e076995dd4a2e6"],["slide-1.jpg","0f1bfb3ec466236fceb1a2ce0e37843b"],["slide-2.jpg","6bc0f474ea999d3a51fbebf8a008b746"],["slide-3.jpg","482ec73e6b0ee96bd4b699d534982f14"],["slide-4.jpg","9a4e32da84c0de02d0b0bd43a69af3e5"],["slider1.jpg","1bc5a67acf1527959bf42e8e7c9d02ec"],["stylesheet.css","543d20cae5d07b65db3fb8e86f99127b"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
