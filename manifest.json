@@ -1,0 +1,14 @@
+{ 
+	"short_name": "VillageN1", 
+	"name": "VillageN1-Website", 
+	"display": "standalone", 
+	"background_color": "white", 
+	"theme_color": "#005299", 
+	"icons": [ 
+		{ 
+		"src": "https://Bare-guillaume.github.io/challenge-guerilla/logo.png", 
+		"type": "image/jpg", 
+		"sizes": "192x192" 
+		},
+	] 
+}
