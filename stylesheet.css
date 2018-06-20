@@ -58,32 +58,42 @@
 
 
 .nos-valeurs{
-    text-align: center;
     padding-top: 8vh;
     padding-left: 10vh;
     padding-right: 10vh;
     padding-bottom: 8vh;
-
 }
 
-.nos-valeurs > h3{
+.card-header {
+     background: -webkit-linear-gradient(left, #3a7bd5, #3a6073);
+     background: -o-linear-gradient(left, #3a7bd5, #3a6073);
+     background: linear-gradient(to right, #3a7bd5, #3a6073);
+}   
+
+.card-header > h4 {
+    text-align: center;
+    color: white;
+}
+
+.nos-valeurs > h3 {
+    text-align: center;
     text-decoration-line: underline;
     text-decoration-color: #D62566;
     padding-bottom: 8vh;
 
 }
 
-
 .contact{
     background-color:#005299;
     color:white;
     padding: 8vh 10vh 8vh 10vh;
     box-sizing: border-box;
+    margin-top: 20px;
     
 }
 
-.contact > h5 {
-    font-size: 32px;
+.contact > h3 {
+    font-size: 30px;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: #D62566;
