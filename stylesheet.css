@@ -91,10 +91,16 @@
 }
 
 .footer{
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    box-sizing: border-box;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-
+.footer button {
+    margin-left: 20px;
+    margin-top: -5px;
 }
 
