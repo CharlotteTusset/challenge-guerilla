@@ -141,9 +141,24 @@
     padding-bottom: 8vh;
 }
 
-<<<<<<< HEAD
 #addresse{
     padding-bottom: 20px;
+    
+}
+
+#addresse p{
+    font-size: 20px;
+    padding-left: 30%;
+    text-align: justify;
+}
+
+.fa.fa-facebook-square{
+    font-size:48px;
+    color:white
+}
+.fa.fa-facebook-square:hover{
+    color:#D62566;
+    text-decoration: none;
 }
 
 #form{
@@ -166,22 +181,11 @@
 #buttonSub:hover{
     color:#D62566;
     background-color: white;
+    
 }
 
 
 
-=======
-
-@media screen and (max-width: 600px){
-    iframe {
-      display: block;
-      margin-top: 20px;
-      padding-right: 60px;
-      padding-left: 15px;
-    }
-}
-
->>>>>>> 9e067faa32f75d80967e17d7a8c091437a5608c3
 .footer{
     padding-top: 4vh;
     padding-bottom: 3vh;
