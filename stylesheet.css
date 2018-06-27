@@ -42,6 +42,7 @@
       font-size: 18px;
     }
   }
+
 .btn {
     
     padding: 15px 25px;
@@ -140,6 +141,7 @@
     padding-bottom: 8vh;
 }
 
+<<<<<<< HEAD
 #addresse{
     padding-bottom: 20px;
 }
@@ -168,6 +170,18 @@
 
 
 
+=======
+
+@media screen and (max-width: 600px){
+    iframe {
+      display: block;
+      margin-top: 20px;
+      padding-right: 60px;
+      padding-left: 15px;
+    }
+}
+
+>>>>>>> 9e067faa32f75d80967e17d7a8c091437a5608c3
 .footer{
     padding-top: 4vh;
     padding-bottom: 3vh;
