@@ -165,6 +165,10 @@
     padding-bottom: 20px;
 }
 
+iframe{
+    border-width: 0px;
+}
+
 #buttonSub{
     padding: 5px 25px;
     font-size: 24px;

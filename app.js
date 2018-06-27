@@ -17,7 +17,7 @@ let btnDon2 = document.getElementById("btnDon2");
 btnDon2.addEventListener("click",myFunction);
 
 function myFunction() {
-  alert("If you feel generous, you can give BeCode T-shirt to the Devs of this website :) ");
+  alert("If you feel generous, you can give BeCode T-shirts to the Devs of this website :) ");
 }
   
 
