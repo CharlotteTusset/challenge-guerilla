@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="aos/dist/aos.css">
     <title>Village N°1</title>
   </head>
   <body>
@@ -97,7 +97,7 @@
                 Nos valeurs
             </h3>
             <div class="card-deck">
-                <div class="card col-lg-4">
+                <div class="shadow p-3 mb-5 card col-lg-4" data-aos="fade-right" data-aos-duration="1000">
                     <div class="card-header"><h4>Respect</h4></div>
                     <div class="card-body">
                         <p>
@@ -109,7 +109,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-lg-4">
+                <div class="shadow p-3 mb-5 card col-lg-4" data-aos="fade-in" data-aos-duration="1000">
                     <div class="card-header"><h4>Ecoute</h4></div>
                     <div class="card-body">
                         <p>
@@ -122,7 +122,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-lg-4">
+                <div class="shadow p-3 mb-5 card col-lg-4" data-aos="fade-left" data-aos-duration="1000">
                     <div class="card-header"><h4>Engagement</h4></div>
                     <div class="card-body">
                         <p>
@@ -136,7 +136,7 @@
         </div>
         <div class="container-fluid">
             <div class="card-deck">
-                <div class="card col-lg-4 ml-auto">
+                <div class="shadow p-3 mb-5 card col-lg-4 ml-auto" data-aos="fade-right" data-aos-duration="1000">
                     <div class="card-header"><h4>Dynamisme</h4></div>
                     <div class="card-body">
                         <p>
@@ -146,7 +146,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-lg-4 mr-auto">
+                <div class="shadow p-3 mb-5 card col-lg-4 mr-auto" data-aos="fade-left" data-aos-duration="1000">
                     <div class="card-header"><h4>Professionnalisme</h4></div>
                     <div class="card-body">
                         <p>
@@ -177,19 +177,19 @@
                         <form>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Prenom">
+                                    <input type="text" class="form-control" placeholder="Prenom" id="first">
                                 </div>
                                 <div class="col">
-                                <input type="text" class="form-control" placeholder="Nom">
+                                <input type="text" class="form-control" placeholder="Nom" id="last">
                                 </div>
                             </div>
                             <br>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Email">
+                                    <input type="email" class="form-control" placeholder="Email" id="mail">
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Numero de telephone">
+                                    <input type="text" class="form-control" placeholder="Numero de telephone" id="phone">
                                 </div>
                                 </div>
                             <br>
@@ -197,17 +197,17 @@
                                 <div class="col-12">
                                     <select class="custom-select" id="ReasonOfContact">
                                         <option selected>Choisissez</option>
-                                        <option value="1">Don</option>
-                                        <option value="2">Newsletter</option>
-                                        <option value="3">Participer aux activites</option>
-                                        <option value="4">Autres</option>
+                                        <option value="Don">Don</option>
+                                        <option value="Newsletter">Newsletter</option>
+                                        <option value="Participer aux activites">Participer aux activites</option>
+                                        <option value="Autres">Autres</option>
                                     </select>
                                 </div>
                             </div>
                             <br>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Ecrivez votre message">
+                                    <input type="text" class="form-control" placeholder="Ecrivez votre message" id="msg">
                                 </div>
                             </div>
                             <br>
@@ -234,5 +234,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="aos/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
   </body>
 </html>
