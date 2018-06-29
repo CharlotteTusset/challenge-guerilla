@@ -2,22 +2,22 @@
 .navbar-nav > ul{
     margin-right: 40px;
     
-}
+    }
 .navbar-nav > li{
     font-size: 24px;
      margin-left:40px;
     margin-right:40px;
     
-  }
+    }
   
 .nav-link{
     color: #005299!important;
 
-}
+    }
 .nav-link:hover{
-    
     border-bottom: 3px solid #D62566!important;
-}
+
+    }
 
 .bgimage {
     width:100%;
@@ -28,23 +28,23 @@
     background-size:cover;
     background-attachment: fixed;
     
-  }
+    }
 .bgimage h1 {
     color:white;
     text-shadow:2px 2px #333;
     position: relative;
     text-align: center;
     padding-top: 100px;
-  }
 
-  @media screen and (max-width: 600px) {
+    }
+
+@media screen and (max-width: 600px) {
     .bgimage h1 {
       font-size: 18px;
     }
   }
 
 .btn {
-    
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
@@ -60,17 +60,9 @@
 .btn:hover{
     color: white;
     background-color: #005299;
-}
     
-/* .button:hover {
-    background-color: #005299
-} */
-    
-/* .button:active {
-    background-color: #005299;
-    
-    transform: translateY(4px);
-    } */
+    }
+
 
 .mission {
     text-align: center;
@@ -79,42 +71,41 @@
     padding-right: 10vh;
     padding-bottom: 8vh;
 
-}
+    }
 
 .mission > h2 { 
     text-decoration-line: underline;
     text-decoration-color: #D62566;
-}
 
-/* .carousel-inner{
-    
-    width:100%;
-    max-height: 500px !important;
-  } */
+    }
 
-  .carousel {
+.carousel {
     width:60%;
     height:40%;
     margin: auto;
-  }
+
+    }
 
 .nos-valeurs{
     padding-top: 8vh;
     padding-left: 10vh;
     padding-right: 10vh;
     padding-bottom: 8vh;
-}
+
+    }
 
 .card-header {
      background: -webkit-linear-gradient(left, #3a7bd5, #D62566);
      background: -o-linear-gradient(left, #3a7bd5, #D62566);
      background: linear-gradient(to right, #3a7bd5, #D62566);
-}   
+
+    }   
 
 .card-header > h4 {
     text-align: center;
     color: white;
-}
+
+    }
 
 .nos-valeurs > h3 {
     text-align: center;
@@ -122,7 +113,7 @@
     text-decoration-color: #D62566;
     padding-bottom: 8vh;
 
-}
+    }
 
 .contact{
     background-color:#005299;
@@ -131,7 +122,7 @@
     box-sizing: border-box;
     margin-top: 20px;
     
-}
+    }
 
 .contact > h3 {
     font-size: 30px;
@@ -139,35 +130,41 @@
     text-decoration-line: underline;
     text-decoration-color: #D62566;
     padding-bottom: 8vh;
-}
+
+    }
 
 #addresse{
     padding-bottom: 20px;
     
-}
+    }
 
 #addresse p{
     font-size: 20px;
     padding-left: 30%;
     text-align: justify;
-}
+
+    }
 
 .fa.fa-facebook-square{
     font-size:48px;
     color:white
-}
+
+    }
 .fa.fa-facebook-square:hover{
     color:#D62566;
     text-decoration: none;
-}
+
+    }
 
 #form{
     padding-bottom: 20px;
-}
+
+    }
 
 iframe{
     border-width: 0px;
-}
+
+    }
 
 #buttonSub{
     padding: 5px 25px;
@@ -197,10 +194,12 @@ iframe{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
+
+    }
 
 .footer button {
     margin-left: 20px;
     margin-top: -5px;
-}
+
+    }
 
